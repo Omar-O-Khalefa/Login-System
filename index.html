@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/0699e91419.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="madia-query.css">
+</head>
+
+<body>
+
+
+  <div class="w-50 width-mediaq  shadow-lg  p-sm-5 " id="signup">
+
+    <h1 class="mb-4 text-center text-info">Smart Login System</h1>
+    <div class="mb-3">
+      <label class="text-white  mb-2" for="username-signup">Name :</label>
+      <input placeholder="EX...OmarKhalefa (Don’t use numbers and tags )" class="form-control" id="username-signup" type="text" />
+    </div>
+   
+    <div class="mb-3">
+      <label class="text-white  mb-2" for="email-signup">Email :</label>
+      <input placeholder="  EX...OmarKhalefa123@gmail.com" class="form-control" id="email-signup" type="email" />
+    </div>
+    
+    <h4 id="taken" class="text-center" >email already taken</h4>
+
+    <div class="mb-3 pos-input">
+      <label class="text-white  mb-2" for="password-signup">Password :</label>
+
+      <input placeholder=" EX..Omar123(eight characters at least)" class="form-control" id="password-signup" type="password" />
+      <i id="icon-up" onclick="iconsignup()" class="fa-regular  eye-pass  text-info fa-eye"></i>
+    </div>
+
+    <h5 id="required" class="text-center mb-3 "></h5>
+
+    <div> <a><button onclick="signupfun()" id="button-signup" class="btn w-100 btn-info text-info">Sign up</button></a>
+    </div>
+    <p class="text-white text-center mt-3">You have an account? <a id="a-signup-click" href="signin.html">Signin</a></p>
+  </div>
+
+
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

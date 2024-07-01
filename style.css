@@ -1,0 +1,105 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: #24353f;
+}
+
+/* global */
+
+#logout {
+    text-align: center;
+    margin: 60px auto;
+}
+
+#login,
+#signup{
+    margin: 60px auto;
+}
+
+.pos-input {
+    position: relative;
+}
+
+.eye-pass {
+    position: absolute;
+    top: 60%;
+    right: 3%;
+    cursor: pointer;
+
+}
+
+.eye-pass1 {
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    cursor: pointer;
+}
+
+#signup div a .btn-info,
+#login div a .btn-info,
+.padding-sm a .btn-info {
+
+    background-color: transparent;
+    border-color: #0dcaf0
+}
+
+#signup div a .btn-info:hover,
+#login div a .btn-info:hover,
+.padding-sm a .btn-info:hover {
+    color: white !important;
+    background-color: #31d2f2;
+    border-color: #25cff2
+}
+
+#signup input,
+#login input {
+    background-color: transparent;
+    color: white;
+}
+
+#signup input::placeholder,
+#login input::placeholder {
+    color: rgb(163, 161, 161);
+}
+
+#signup p a,
+#login p a {
+    text-decoration: none;
+    color: white;
+}
+
+#signup p a:hover,
+#login p a:hover {
+    text-decoration: underline;
+
+}
+
+#welcome {
+    color: white;
+    width: 50%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#required {
+    display: none;
+}
+
+#taken {
+    display: none;
+}
+
+#requiredlog {
+    display: none;
+}
